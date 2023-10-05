@@ -1,0 +1,24 @@
+<!ELEMENT steam (shop, library, profile, community )>
+<!ELEMENT shop (videogames)>
+<!ELEMENT videogames (videogame+)>
+<!ATTLIST videogame xmlns:shop CDATA #REQUIRED>
+<!ELEMENT videogame (shop:name, shop:price)>
+<!ELEMENT shop:name (#PCDATA)>
+<!ELEMENT shop:price (#PCDATA)>
+<!ELEMENT library (videogames_library)>
+<!ELEMENT videogames_library (videogame_library*)>
+<!ELEMENT videogame_library (lib:name, lib:price)>
+<!ATTLIST videogame_library xmlns:lib CDATA #REQUIRED>
+<!ELEMENT lib:name (#PCDATA)>
+<!ELEMENT lib:price (#PCDATA)>
+<!ELEMENT profile (username, friends)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT friends (friend*)>
+<!ELEMENT friend (#PCDATA)>
+<!ELEMENT community (discussions, workshop)>
+<!ELEMENT discussions (subject*, forum*)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT forum (#PCDATA)>
+<!ELEMENT workshop (create*, download*)>
+<!ELEMENT create (#PCDATA)>
+<!ELEMENT download (#PCDATA)>

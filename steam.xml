@@ -1,0 +1,55 @@
+<!DOCTYPE steam SYSTEM "steam.dtd">
+<steam>
+    <shop>
+        <videogames>
+            <videogame xmlns:shop = "https/VideojuegoDeLaTienda">
+                <shop:name>Destiny 2</shopname>
+                <shop:price>Free</shopprice>
+            </videogame>
+            <videogame xmlns:shop = "https/VideojuegoDeLaTienda">
+                <shop:name>Team Fortress 2</shopname>
+                <shop:price>Free</shopprice>
+            </videogame>
+            <videogame xmlns:shop = "https/VideojuegoDeLaTienda">
+                <shop:name>Call of Duty Modern Warfare</shopname>
+                <shop:price>55€</shopprice>
+            </videogame>
+        </videogames>
+    </shop>
+    <library>
+        <videogames_library>
+            <videogame xmlns:lib = "https/VideojuegoDeLaLibreria">
+                <lib:name>Fifa24</libname>
+                <lib:price>69,99€</libprice>
+            </videogame>
+            <videogame xmlns:lib = "https/VideojuegoDeLaLibreria">
+                <lib:name>Team Fortress 2</libname>
+                <lib:price>Free</libprice>
+            </videogame>
+            <videogame xmlns:lib = "https/VideojuegoDeLaLibreria">
+                <lib:name>Call of Duty Black Ops III</libname>
+                <lib:price>59,99€</libprice>
+            </videogame>
+        </videogames_library>
+    </library>
+    <profile>
+        <username>Gallina32</username>
+        <friends>
+            <friend>Koruwu</friend>
+            <friend>Arcala2</friend>
+        </friends>
+    </profile>
+    <community>
+        <discussions>
+            <subject>Bug en Overwatch2</subject>
+            <forum>Se arregla dandole alt+f4</forum>
+            <forum>Eso es mentira</forum>
+        </discussions>
+        <workshop>
+            <create>Thor 3D model</create>
+            <create>mod Tabletop Simulator</create>
+            <download>mod Tabletop Simulator</download>
+            <download>cat 3D model</download>
+        </workshop>
+    </community>
+</steam>
